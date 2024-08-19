@@ -1,0 +1,183 @@
+body {
+    background-color: #27262d;
+}
+
+#titulo {
+    text-align: center;
+    color: aliceblue;
+}
+
+.container-principal {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* Espaço entre os containers */
+    padding: 20px;
+}
+
+#foto {
+    width: 100%;
+    /* Arredondamento somente do topo da imagem*/
+    border-radius: 5px 5px 0 0;
+}
+
+.icone-email {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    /* Alinha o ícone verticalmente com o texto */
+    margin-right: 8px;
+    /* Espaço entre o ícone e o texto */
+}
+
+.icone-celular {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    /* Alinha o ícone verticalmente com o texto */
+    margin-right: 8px;
+    /* Espaço entre o ícone e o texto */
+}
+
+.icone-aniversario {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    /* Alinha o ícone verticalmente com o texto */
+    margin-right: 8px;
+    /* Espaço entre o ícone e o texto */
+}
+
+.container-esquerdo {
+    width: 330px;
+    height: 540px;
+    background-color: white;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.container-direito-agrupado {
+    display: flex;
+    flex-direction: column;
+    /* Espaço entre o segundo e o terceiro container */
+    gap: 20px;
+
+}
+
+.container-direito {
+    /* Espaçamento do conteúdo interno */
+    padding: 10px;
+    border: 2px solid #46c9e9;
+    width: 430px;
+    height: 430;
+    background-color: #27262d;
+    position: relative;
+    border-radius: 5px;
+}
+
+.linha {
+    /* Espaçamento acima da linha */
+    margin-top: 10px;
+    /* Espaçamento abaixo da linha */
+    margin-bottom: 10px;
+    border: none;
+    border-top: 1px solid #3a383d96;
+    /* Largura compensando o padding de 10px de cada lado */
+    width: calc(100% + 20px);
+    position: relative;
+    /* Move a linha para a esquerda, colando-a na borda */
+    left: -10px;
+}
+
+
+.container-abaixo {
+    border: 2px solid #46c9e9;
+    width: 380;
+    height: auto;
+    background-color: #27262d;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.informacoes-pessoais {
+    font-family: sans-serif;
+    margin: 10px;
+    line-height: 1.6;
+}
+
+.tabela-container {
+    /* Espaço entre as divs e a tabela */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.subtitulo {
+    color: white;
+    font-family: sans-serif;
+}
+
+.local {
+    color: white;
+    display: inline;
+    margin-right: 5px;
+    font-family: sans-serif;
+}
+
+.descricao {
+    color: #777678;
+    font-family: sans-serif;
+}
+
+.data {
+    color: white;
+    font-family: sans-serif;
+}
+
+.tecnologias {
+    height: 30px;
+    width: auto;
+    color: black;
+    border-radius: 5px;
+    background-color: #46c9e9;
+    font-family: sans-serif;
+}
+
+table {
+    color: white;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.cabecalho-tabela {
+    background-color: #27262d;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.cor-de-fundo-tabela-primeira-linha {
+    background-color: #302e31d7;
+}
+
+.cor-de-fundo-tabela-segunda-linha {
+    background-color: #27262d;
+
+}
+
+.coluna-1 {
+    font-weight: bold;
+
+}
+
+th,
+td {
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
